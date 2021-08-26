@@ -1,0 +1,206 @@
+
+.App{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.Usercard{
+    width: 60vw;
+    height:90vh;
+    background:white;
+    border-radius: 10px;
+    /*box-shadow: 0px 1px 10px 1px black;*/
+
+
+}
+.example_a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+
+    .example_a:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        }
+.upper-container
+{
+    height: 100px;
+    /*background: linear-gradient(to bottom right,#FFCE00,#FE4880);*/
+}
+
+.lower-container{
+    margin-top: 60px;
+    height: 70vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.info-container  {
+    width: 450px;
+    padding: 10px;
+    border: 5px solid grey;
+    margin: 0;
+    margin-top: -300px;
+    margin-left: 400px;
+    line-height: 45px;
+    text-align: left;
+
+}
+
+
+.image-container img{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+   align-items: left;
+    padding:  5px;
+    transform: translate(-310px,-120px);
+}
+.cardButton {
+    color: #008CBA;
+}
+.file-card {
+    border: 1px solid black;
+    padding: 2em 2em 2em 2em ;
+    background-color: white;
+}
+
+.App{
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    /* background-color: #c1c2cab2; */
+  }
+
+.dashboard{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    margin-left: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FAF9F6;
+}
+.welcome {
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    color: #1f1d2d;
+    margin-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 40px;
+    font-weight:bolder;
+    border-bottom: 2.4px dashed lightgrey;
+}
+
+.welcome span{
+    padding-top: 10px ;
+    margin-left: 1px ;
+    display: block;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(134, 131, 131);
+}
+
+.heading {
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    color: #1f1d2d;
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    align-self: center;
+}
+.container{
+    border-top: 2.4px dashed lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 1em;
+    margin-left: 3.5em;
+}
+
+.popup {
+    border: 2px black solid;
+    height: 100px;
+    width: 300px;
+    margin-top:20%;
+    margin-left:35%;
+    z-index: 10;
+    position: absolute;
+    background-color: #41548a;
+}
+
+.class-card{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width:20em;
+    height:15em;
+    font-size:  1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 1em 1em 1em 1em;
+    background-color: white;
+    font-family: montserrat,sans-serif;
+    align-items: flex-start;
+    /* box-shadow: 6px 5px 6px grey; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.class-code {
+    font-weight: bold;
+}
+
+.label{
+    margin-top: 1em;
+    color: white;
+    font-weight: 500;
+}
+.class-details {
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+.class-details-container{
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+}
+.class-details-container div{
+    margin-right: 2em;
+}
+.class-grade {
+    margin-top: 0.7em;
+}
+
+.signin-input {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.i-frame {
+    margin-left:20px;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
